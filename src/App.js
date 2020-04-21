@@ -25,7 +25,7 @@ export default class App extends Component {
   }
   fetch = async () => {
     const tickerInfo = await infoGet('http://localhost:1337/api-call');
-    this.setState({ tickerList: tickerInfo.data})
+    this.setState({ tickerList: tickerInfo.data })
   }
   componentDidMount = () => {
     this.fetch();
