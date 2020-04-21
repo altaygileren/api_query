@@ -1,0 +1,20 @@
+.search-bar-div {
+  width: 100%;
+  margin: 40px 0;
+}
+.search-by-row {
+  text-align: center;
+  width: 100%;
+}
+.search-by-row p {
+  color: red;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 12px;
+  color: #969696;
+}
+.form-control {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
